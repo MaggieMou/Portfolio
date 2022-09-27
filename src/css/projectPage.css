@@ -1,0 +1,113 @@
+.projectPage {
+	width: 90%;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+    height: 90%;
+}
+
+.projectPage .title {
+	font-family: 'Press Start 2P', cursive;
+	font-size: .7rem;
+}
+
+.projectPage .characterProjects {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #6660A3;
+	text-shadow: 0 0 10px rgb(255 255 255 / 10%);
+	font-size: .9rem;
+	overflow: hidden;
+}
+
+.projectPageOuter {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projectPage > section > div {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.projectPage .characterProjects .title {
+	background: #381E5E;
+	border: 1px solid #4D3981;
+	border-radius: 4px 0 0 0;
+	padding: 5px 10px;
+}
+
+
+.projectPage .characterProjects .content {
+    flex-grow: 1;
+    padding: 25px;
+	box-sizing: border-box;
+    height: 100%;
+    overflow-y: auto;
+    line-height: 1.2rem;
+    background: #1D072A;
+    border: 1px solid #4D3981;
+    border-top: none;
+}
+
+.projectPage .back {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	align-items: flex-end;
+}
+
+.projectPage .back a {
+	display: block;
+}
+
+.projectPage .back a img {
+	width: 50px;
+}
+
+.projectPage .content .allProjects {
+	height: 100%;
+	width: 100%;
+    display: flex;
+    column-gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 35px;
+}
+
+.projectPage .content .disabled {
+	display: none;
+}
+
+.projectPage .oneProject .embedHolder {
+	overflow: hidden;
+	max-width: 250px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.projectPage .oneProject .embedHolder > * {
+	width: 100%;
+	box-sizing: border-box;
+	border: 5px solid;
+}
+
+.projectPage .oneProject .linkHolder {
+	margin-top: 10px;
+}
+
+.projectPage .oneProject .linkHolder a,
+.projectPage .oneProject .linkHolder a:link,
+.projectPage .oneProject .linkHolder a:active {
+	color: #6660A3;
+}
+	
+.projectPage .oneProject .contentTitle {
+	font-size: 1.2rem;
+}
+

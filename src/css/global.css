@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+
+html, body, #root, main {
+	height: 100%;
+	overflow: hidden;
+	background-color: #05020D;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+	font-size: 12px; /* used for rem, 1rem = 12px, 2rem=24px, etc... */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #260F3F; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #381E5E; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4D3981; 
+}

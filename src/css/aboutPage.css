@@ -1,0 +1,118 @@
+.aboutPage {
+	width: 90%;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+    height: 90%;
+}
+
+.aboutPage .title {
+	font-family: 'Press Start 2P', cursive;
+	font-size: .7rem;
+}
+
+.aboutPage > section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #6660A3;
+	text-shadow: 0 0 10px rgb(255 255 255 / 10%);
+	font-size: .9rem;
+}
+
+.aboutPageOuter {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aboutPage > section > div {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.aboutPage .characterInformation .title,
+.aboutPage .characterBiography .title {
+	background: #381E5E;
+	border: 1px solid #4D3981;
+	border-radius: 4px 0 0 0;
+	padding: 5px 10px;
+}
+
+.aboutPage .characterBiography {
+	margin-top: 20px;
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+.aboutPage .characterInformation .content {
+	height: 150px;
+}
+
+.aboutPage .characterBiography .content {
+	flex-grow: 1;
+	padding: 5px 10px;
+	height: 100%;
+    overflow-y: auto;
+	line-height: 1.2rem;
+}
+
+.aboutPage .characterInformation .content,
+.aboutPage .characterBiography .content {
+	background: #1D072A;
+	border: 1px solid #4D3981;
+	display: flex;
+	border-top: none;
+}
+
+.aboutPage .characterInformation .content .leftContent {
+	flex-direction: column;
+    justify-content: space-around;
+	display: flex;
+	flex-grow: 1;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.aboutPage .characterInformation .content .leftContent > div {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	
+}
+
+.aboutPage .characterInformation .content .leftContent > div > span {
+	flex-basis: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.aboutPage .characterInformation .content .rightContent {
+	width: 20%;
+	min-width: 120px;
+	background: linear-gradient(90deg, rgba(39, 4, 68, 0) 0%, rgb(76, 26, 116) 30%, rgb(106, 63, 141) 64%, rgb(61, 26, 116) 100%);
+	
+	display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.aboutPage .characterInformation .content .rightContent img {
+	height: 100%;
+}
+
+.aboutPage .backContent a {
+	display: block;
+}
+
+.aboutPage .backContent a img {
+	width: 50px;
+}
+
+.aboutPage .backContent {
+	margin-top: 15px;
+	align-items: flex-end;
+}

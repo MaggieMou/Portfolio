@@ -1,0 +1,31 @@
+.mainPage {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin: 0 15px;
+}
+
+.mainPage > section {
+	height: 100%;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+	justify-content: space-around;
+}
+
+.mainPage .left {
+	width: 30%;
+}
+
+.mainPage .middle {
+	width: 40%;
+}
+
+.mainPage .right {
+	width: 30%;
+}
+
+.pixelMe {
+	max-width: 300px;
+	max-height: 90%;
+}

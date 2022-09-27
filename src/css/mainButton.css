@@ -1,0 +1,33 @@
+.mainButton {
+	width: 100%;
+	max-width: 145px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+    box-sizing: border-box;
+    font-size: .75rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.mainButton .textContainer {
+	position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #ce35b7;
+	text-shadow: 1px 1px #37235f;
+	overflow: hidden;
+    word-break: break-all;
+    padding: 10px;
+    box-sizing: border-box;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.mainButton img {
+	width: 100%;
+}

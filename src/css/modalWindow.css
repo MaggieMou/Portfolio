@@ -1,0 +1,158 @@
+.modalWindow {
+	width: 90%;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: column;
+}
+
+.modalWindowOuter {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.modalWindow .topBar, .modalWindow .bottomBar, .modalWindow .content {
+	display: flex;
+	
+}
+
+.modalWindow .topBar {
+	height: 48px;
+}
+
+.modalWindow .topBar .mid, .modalWindow .bottomBar .mid {
+	flex-grow: 1;
+}
+
+.modalWindow .topBar .left {
+	width: 24px;
+	position: relative;
+}
+
+.modalWindow .topBar .left .left1 {
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	bottom: 0px;
+	background-color: #5e55a3;
+}
+
+.modalWindow .topBar .left .left2 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	position: absolute;
+	bottom: 12px;
+	left: 0px;
+	background-color: #5e55a3;
+	
+}
+
+.modalWindow .topBar .left .left3 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+	background-color: #43357e;
+
+}
+
+.modalWindow .topBar .left .left4 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	background-color: #5e55a3;
+}
+
+.modalWindow .topBar .right {
+	box-sizing: border-box;
+	padding-left: 12px;
+	line-height: 1.7rem;
+	font-family: 'Press Start 2P', cursive;
+	font-size: .7rem;
+	color: #ce35b7;
+	flex-grow: 1;
+	border: 12px solid #5e55a3;
+	border-left: none;
+	background-color: #43357e;
+}
+
+.modalWindow .bottomBar {
+	height: 24px;
+}
+
+.modalWindow .bottomBar .left {
+	flex-grow: 1;
+	border: 12px solid #5e55a3;
+	border-top: none;
+	border-right: none;
+	background-color: #31245b;
+}
+
+.modalWindow .bottomBar .right {
+	width: 36px;
+	position: relative;
+}
+
+.modalWindow .bottomBar .right .right1 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	background: #5e55a3;
+}
+
+.modalWindow .bottomBar .right .right2 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 12px;
+	background: #31245b;
+}
+
+.modalWindow .bottomBar .right .right3 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+	background: #5e55a3;
+}
+
+.modalWindow .contentOuter {
+	overflow: hidden;
+}
+
+.modalWindow .contentOuter .content {
+	overflow-y: auto;
+	flex-grow: 1;
+	background-color: #31245b;
+	box-sizing: border-box;
+    padding: 13px 16px 0px 16px;
+	color: #ce35b7;
+	font-size: .8rem;
+	border: 12px solid #5e55a3;
+	border-top: none;
+	border-bottom: none;
+}
+
+.modalWindow .back {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	align-items: flex-end;
+}
+
+.modalWindow .back a {
+	display: block;
+}
+
+.modalWindow .back a img {
+	width: 50px;
+}

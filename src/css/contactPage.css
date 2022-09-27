@@ -1,0 +1,45 @@
+.contactPage .contentList {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+
+.contactPage .contentList > div {
+	flex-basis: 50%;
+	display: inline-block;	
+}
+
+.contactPage .contentList:last-of-type {
+	margin-bottom: 0px;
+}
+
+.contactPage h2 {
+	margin-bottom: 5px;
+}
+
+.contactPage .contentListSingleColumn {
+	display: flex;
+}
+
+.contactPage .contentListSingleColumn div {
+	flex-basis: 100%;
+}
+
+.contactPage .contentListOuter > div {
+	flex-grow: 1;
+}
+
+.contactPage .contentListOuter .contentList a,
+.contactPage .contentListOuter .contentList a:link,
+.contactPage .contentListOuter .contentList a:active
+ {
+	color: #ce35b7;
+	flex-grow: 1;
+}
+
+.contactPage .contentListOuter {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	flex-grow: 1;
+}

@@ -1,0 +1,30 @@
+.statsPage .contentListOuter {
+	flex-grow: 1;
+}
+
+.statsPage .contentList {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+
+.statsPage .contentList > div {
+	flex-basis: 50%;
+	display: inline-block;	
+}
+
+.statsPage .contentList:last-of-type {
+	margin-bottom: 0px;
+}
+
+.statsPage h2 {
+	margin-bottom: 5px;
+}
+
+.statsPage .contentListSingleColumn {
+	display: flex;
+}
+
+.statsPage .contentListSingleColumn div {
+	flex-basis: 100%;
+}
